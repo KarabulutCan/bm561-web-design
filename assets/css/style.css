@@ -1,0 +1,27 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table.striped tbody tr:nth-child(even) {
+  background-color: #f9fafb; 
+}
+table.striped tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.highlight {
+  background-color: #fef08a; 
+  font-weight: bold;
+}
+
+.custom-input {
+  border: 2px solid #94a3b8;
+  border-radius: 0.25rem;   
+  padding: 8px;
+  outline: none;
+}
+.custom-input:focus {
+  border-color: #3b82f6; 
+}
